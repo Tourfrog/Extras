@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Taboo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>
+            Jogo de Taboo
+        </h1>
+    </header>
+    <div class="corpo">
+        <div class="main">
+            <h1>Regra do Taboo:</h1>
+            <h3>Não pode digitar uma palavra que comece com umas das letras proibidas.</h3>
+            <br>
+            <h3>As letras proibidas são:</h3>
+            <div class="letraProibida">
+            <!-- aqui deve ser mostradas as letras proibidas -->
+            
+            </div>
+
+            <br>
+            <div class="card">
+                <form action="">
+                    <label for="name" id="texto"></label>
+                    <input type="text" name="palavra" id="palavra">
+                    <button type="button" id="botao">Enviar</button>
+                </form>
+            </div>
+            
+            <br>
+            
+            <h3>O que foi escritas até agora:</h3>
+            <div class="digitada">
+                
+                <!-- aqui deve mostrar as palavras já escritas -->
+                
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
