@@ -1,0 +1,202 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.janela{
+    background-color: rgb(101, 191, 191);
+    width: 55vw;
+    height: 80vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 10px;
+}
+.header{
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 25px;
+}
+#button{
+    font-size: 25px;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+#button:hover{
+    background-color: yellow;
+
+}
+
+h3{
+    margin: 15px;
+    font-size: 25px;
+}
+
+
+.dadosComputador{
+    height: 20%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid red;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;   
+}
+.dadosJogador{
+    height: 20%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid red;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.winner{
+    margin-top: 30px;
+    height: 15%;
+    width: 80%;
+    border-radius: 10px;
+    border: 1px solid red;
+    background-color: white;
+    font-size: 35px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}  
+
+.dados{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.setor{
+    height: 33%;
+    width: 33%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dot{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+/* .dados1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dados2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10%
+}
+.dados3{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10%
+}
+.dados4{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25%
+}
+.dados5{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10%
+    
+}
+.dados6{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10%
+}
+
+.dot{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    
+}
+.dot1{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 40% 0;
+}
+.dot2{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: self-start;
+    margin: 10px 0;
+}
+.dot3{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    align-self: self-end;
+    margin: 10px 0;
+} */
